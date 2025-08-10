@@ -7,6 +7,8 @@
 
 ### Team Name
 
+    - Q-Plinkers
+
 ### Team Size:
   - Team size = 3
 
@@ -58,13 +60,13 @@ Refer [here](https://github.com/virajd98/Q-Plinkers/blob/main/Final%20Notebooks/
 A sneak peak into our noisy simulator based results:
 
 <p align="center">
-<img src= "https://github.com/virajd98/Q-Plinkers/blob/main/Images/n_6QGB.png" alt="6-level QGB" width="255">
+<img src= "https://github.com/virajd98/Q-Plinkers/blob/main/Images/n_6QGB.png" alt="6-level QGB" width="300">
 </p>
 
 ---
 
 ### Project Presentation Deck
-(Link to Project Presentation Deck- TODO)
+The presentation slides can be found [here](https://github.com/virajd98/Q-Plinkers/blob/main/Q-Plinkers_PPT.pdf).
 
 ### Installation and Usage Tips
 

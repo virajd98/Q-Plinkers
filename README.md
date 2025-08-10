@@ -1,38 +1,35 @@
 # Quantum Walks and Monte Carlo
-**Global Quantum Program 2025**
 
-### Project Description:
-  - Click [here](https://www.thewiser.org/quantum-walks-monte-carlo) to view the project description.
-
-
-### Team Name
-
-    - Q-Plinkers
-
-### Team Size:
-  - Team size = 3
+### A project for the **Global Quantum Program 2025**
 
 ---
 
-### Team Members
-- Mrunal Arun Kumavat (gst-5xQeln6sCF0kYi6)
-- Ritisha Katiyar (gst-BlDqzagDwOqhxW3)
-- Viraj Daniel Dsouza (gst-XsbkDJWSAD37VOk)
+## 👥 Our Team
+
+* **Team Name:** Q-Plinkers
+* **Team Size:** 3
+* **Team Members:**
+    * Mrunal Arun Kumavat (gst-5xQeln6sCF0kYi6)
+    * Ritisha Katiyar (gst-BlDqzagDwOqhxW3)
+    * Viraj Daniel Dsouza (gst-XsbkDJWSAD37VOk)
 
 ---
 
-### Project Summary
-This project repository explores the **Universal Statistical Simulator** by implementing a Quantum Galton Board (QGB), a quantum analogue of the classic Plinko game. The Galton board serves as a physical realization of a Monte Carlo simulation, a powerful method for solving complex, high-dimensional problems in fields like particle transport and quantum physics. Our work focuses on developing and optimizing quantum circuits that generate various statistical distributions.
+## 🎯 Project Overview
 
-Initially, we developed a general algorithm to construct a QGB circuit for an arbitrary number of layers, building upon a 1, 2, 3 and 4-layer model. We successfully verified that the output of our noiseless circuit adheres to a Gaussian distribution, consistent with the classical Galton board's behavior. We then adapted this core functionality to produce other, non-Gaussian distributions, specifically the **Exponential distribution** and the **Hadamard quantum walk**. For all implementations, we provided good fits between the observed results and the theoretical forms of each distribution.
+This repository explores the **Universal Statistical Simulator** by implementing a Quantum Galton Board (QGB), a quantum analog of the classic Plinko game. The Galton board serves as a physical realization of a Monte Carlo simulation. Our work focuses on developing and optimizing quantum circuits that generate various statistical distributions.
 
-The next phase of the project involved simulating these circuits on a **noisy model** of a quantum hardware. Recognizing that gate errors and decoherence significantly impact circuit fidelity, we focused on quantifying these errors for the circuits of interest and developing optimized implementations wherever possible. This involved creating custom transpiler pass managers to mitigate noise, specifically by optimizing qubit layout, routing, etc. Through a systematic search for the best transpiler pass manager, we aimed to maximize the accuracy and the number of layers achievable before noise completely dominates the signal. This part of the project highlights the critical role of appropriate transpilation and noise mitigation in practical quantum computing.
+Initially, we developed a general algorithm to construct a QGB circuit for an arbitrary number of layers, building on 1-, 2-, 3-, and 4-layer models. We successfully verified that the output of our noiseless circuit adheres to a Gaussian distribution, consistent with the classical Galton board's behavior. We then adapted this core functionality to produce other, non-Gaussian distributions, specifically the **Exponential distribution** and the **Hadamard quantum walk**. For all implementations, we provided good fits between the observed results and the theoretical forms of each distribution.
 
-Finally, we also conducted an analysis of the results by computing the statistical distance between our simulated distributions and the ideal target distributions. This allowed us to quantify the impact of noise and the effectiveness of the strategies used, providing a comprehensive evaluation of our implementation's performance. The project demonstrates a full cycle of quantum algorithm development, from theoretical implementation to practical optimization on a noisy hardware model.
+The next phase involved simulating these circuits on a **noisy model** of quantum hardware. Recognizing that gate errors and decoherence significantly impact circuit fidelity, we focused on quantifying these errors and developing optimized implementations. This involved creating custom transpiler pass managers to mitigate noise by optimizing qubit layout, routing, and more. Through a systematic search, we aimed to maximize the accuracy and the number of layers achievable before noise completely dominates the signal. This part of the project highlights the critical role of appropriate transpilation and noise mitigation in practical quantum computing.
+
+Finally, we also conducted an analysis of the results by computing the statistical distance between our simulated distributions and the ideal target distributions. This allowed us to quantify the impact of noise and the effectiveness of our strategies, providing a comprehensive evaluation of our implementation's performance. The project demonstrates a full cycle of quantum algorithm development, from theoretical implementation to practical optimization on a noisy hardware model.
+
+Click [here](https://www.thewiser.org/quantum-walks-monte-carlo) to view the project description.
 
 ---
 
-## Project outcomes
+## ✨ Project Outcomes
 
 #### 1: 2-Pager Summary of QGBs
 A well-structured 2-pager document summarizing the implementation of QGBs based on a review of the paper can be found [here](https://github.com/virajd98/Q-Plinkers/blob/main/Galton_board_two_pager.pdf). 
@@ -68,7 +65,7 @@ A sneak peak into our noisy simulator based results:
 ### Project Presentation Deck
 The presentation slides can be found [here](https://github.com/virajd98/Q-Plinkers/blob/main/Q-Plinkers_PPT.pdf).
 
-### Installation and Usage Tips
+## 🛠️ Installation and Usage
 
 Please fork the repository and clone the fork to your local device. Certain files use modules that contain helper functions. 
 
@@ -87,20 +84,20 @@ Please create your ibm `api-token` from [upgraded IBM Quantum&reg; Platform](htt
     overwrite=True,
 )'
 
-### Contributing
+### 🤝 Contributing
 
 If you wish to contribute to this repository, please fork the repository, make your contributions in your fork, and submit a pull request
 
 
-### License
+### 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](MIT-LICENSE.txt) file for details.
 
-### Bibliography
+### 📖 Bibliography
 
 - M. Carney and B. Varcoe, Universal Statistical Simulator. arXiv:2202.01735 [quant-ph], 2022. https://arxiv.org/abs/2202.01735
 
-### Acknowledgments
+### 🙏 Acknowledgments
 
 - A heartfelt gratitude to [Womanium and Wiser Team](https://www.thewiser.org/about-wiser) for designing & organizing this program, and offering scholarships. 
 - Grateful to Brian McDermott and the NNL team for their guidance and support on this project.

@@ -78,18 +78,20 @@ You can use `pip install -r requirements.txt` to install all the packages needed
 Please create your ibm `api-token` from [upgraded IBM Quantum&reg; Platform](https://quantum.cloud.ibm.com/). Then create your instance and copy its CRN code. Save the details using the code below to run the codes on real hardwares and/or noise simulators. 
 
 
-'QiskitRuntimeService.save_account(
+`QiskitRuntimeService.save_account(
     channel="ibm_quantum_platform",
     token=your_api_key,
     instance=your_crn,
     name="any_name",
     overwrite=True,
-)'
+)`
+
 ---
 
 ### 🤝 Contributing
 
 If you wish to contribute to this repository, please fork the repository, make your contributions in your fork, and submit a pull request
+
 ---
 
 ### 📝 License

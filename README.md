@@ -32,31 +32,34 @@ Finally, we also conducted an analysis of the results by computing the statistic
 
 ## Project outcomes
 
-#### Task 1: 2-Pager Summary of QGBs
+#### 1: 2-Pager Summary of QGBs
 A well-structured 2-pager document summarizing the implementation of QGBs based on a review of the paper can be found [here](). 
 
 
-#### Task 2: Universal Galton Board Algorithm
-* **Implementation**: We started with a QGB circuit with small number of layers to observe the pattern to help us generalize the circuit for arbitrary number of layers. Refer [here]() for the implementation. We then developed a general-purpose algorithm capable of generating a QGB circuit for any number of layers. The algorithm was verified using a noiseless simulator, confirming that the output distribution for the measured samples is Gaussian, matching the expected behavior of a classical Galton board. Refer [here]() for the detailed implementation and verification of the generalized QGB.
+#### 2: Universal Galton Board Algorithm
+* We started with a QGB circuit with small number of layers to observe the pattern to help us generalize the circuit for arbitrary number of layers. Refer [here](https://github.com/virajd98/Q-Plinkers/blob/main/Final%20Notebooks/Level-%201-4Galton_Board.ipynb) for the implementation. We then developed a general-purpose algorithm capable of generating a QGB circuit for any number of layers. The algorithm was verified using a noiseless simulator, confirming that the output distribution for the measured samples is Gaussian, matching the expected behavior of a classical Galton board. 
 
 
-#### Task 3: Implementing Alternative Distributions
+#### 3: Implementing Alternative Distributions
 * **Exponential Distribution**: By using a row-dependent `Ry` rotation gate in the 'peg' construction, we  generated an exponentially decaying distribution. The rotation angle was carefully chosen to decrease the probability of a "right" movement with each subsequent layer. Additionally, we explored another possible implementation with more control possible over the exponential decay rate. 
 * **Hadamard Quantum Walk**: 
 
-Refer [here]() for the implementation. 
+Refer [here](https://github.com/virajd98/Q-Plinkers/blob/main/Final%20Notebooks/Generalized_Galton_Board.ipynb) for the detailed implementation of outcomes 2 and 3. 
 
-#### Task 4: Optimized Implementation on Noisy Hardware
-* **Pass Managers**: We utilized IBM qiskit's custom `PassManager` to optimize the circuits for a real hardware noise model. 
-* **Maximizing Accuracy**: We benchmarked different transpiler settings and seeds to find the optimal configuration that minimizes the total accumulated error, allowing for a greater number of layers to give reliable results on the noisy simulator.
+#### 4: Optimized Implementation on Noisy Hardware
+* We utilized IBM qiskit's custom `PassManager` to optimize the circuits for a real hardware noise model. We benchmarked different transpiler settings and seeds to find the optimal configuration that minimizes the total accumulated error, allowing for a greater number of layers to give reliable results on the noisy simulator.
 
-#### Task 5: Distance Computation and Uncertainty
-* **Statistical Analysis**: We computed the distances between the distributions obtained from the noisy simulations and the ideal distributions. (TODO)
+#### 5: Distance Computation and Uncertainty
+* **Statistical Analysis**: We computed the distances between the distributions obtained from the noisy simulations and the ideal distributions.
 
----
+Refer [here](https://github.com/virajd98/Q-Plinkers/blob/main/Final%20Notebooks/Noisy_QGB.ipynb) for the detailed implementation of outcomes 4 and 5. 
 
-### Result Plots
-(TODO)
+
+A sneak peak into our noisy simulator based results:
+
+<!-- <p align="center">
+<img src= alt="Description" width="255">
+</p> -->
 
 ---
 
@@ -90,3 +93,19 @@ If you wish to contribute to this repository, please fork the repository, make y
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE](MIT-LICENSE.txt) file for details.
+
+### Bibliography
+
+- M. Carney and B. Varcoe, Universal Statistical Simulator. arXiv:2202.01735 [quant-ph], 2022. https://arxiv.org/abs/2202.01735
+
+### Acknowledgments
+
+- A heartfelt gratitude to [Womanium and Wiser Team](https://www.thewiser.org/about-wiser) for designing & organizing this program, and offering scholarships. 
+- Grateful to Brian McDermott and the NNL team for their guidance and support on this project.
+- Thanks to the Discord community for active discussion and timely support.
+- This project majorly uses [Qiskit](https://www.ibm.com/quantum/qiskit) by IBM Quantum. 
+
+<p align="center">
+  <img src="Images/LOGO - Womanium Quantum - Transparent - Long.png" alt="Womanium Logo" width="160" style="margin:10px;" />
+  <img src="Images/WISER Logo black.png" alt="Wiser Logo" width="160" style="margin:10px;" />
+</p>

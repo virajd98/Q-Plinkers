@@ -65,6 +65,8 @@ A sneak peak into our noisy simulator based results:
 ### Project Presentation Deck
 The presentation slides can be found [here](https://github.com/virajd98/Q-Plinkers/blob/main/Q-Plinkers_PPT.pdf).
 
+---
+
 ## 🛠️ Installation and Usage
 
 Please fork the repository and clone the fork to your local device. Certain files use modules that contain helper functions. 
@@ -83,26 +85,32 @@ Please create your ibm `api-token` from [upgraded IBM Quantum&reg; Platform](htt
     name="any_name",
     overwrite=True,
 )'
+---
 
 ### 🤝 Contributing
 
 If you wish to contribute to this repository, please fork the repository, make your contributions in your fork, and submit a pull request
-
+---
 
 ### 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](MIT-LICENSE.txt) file for details.
 
+---
+
 ### 📖 Bibliography
 
 - M. Carney and B. Varcoe, Universal Statistical Simulator. arXiv:2202.01735 [quant-ph], 2022. https://arxiv.org/abs/2202.01735
 
+---
 ### 🙏 Acknowledgments
 
 - A heartfelt gratitude to [Womanium and Wiser Team](https://www.thewiser.org/about-wiser) for designing & organizing this program, and offering scholarships. 
 - Grateful to Brian McDermott and the NNL team for their guidance and support on this project.
 - Thanks to the Discord community for active discussion and timely support.
 - This project majorly uses [Qiskit](https://www.ibm.com/quantum/qiskit) by IBM Quantum. 
+
+---
 
 <p align="center">
   <img src="Images/LOGO - Womanium Quantum - Transparent - Long.png" alt="Womanium Logo" width="140" style="margin:10px;" />

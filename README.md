@@ -33,7 +33,7 @@ Finally, we also conducted an analysis of the results by computing the statistic
 ## Project outcomes
 
 #### 1: 2-Pager Summary of QGBs
-A well-structured 2-pager document summarizing the implementation of QGBs based on a review of the paper can be found [here](). 
+A well-structured 2-pager document summarizing the implementation of QGBs based on a review of the paper can be found [here](https://github.com/virajd98/Q-Plinkers/blob/main/Galton_board_two_pager.pdf). 
 
 
 #### 2: Universal Galton Board Algorithm
@@ -57,9 +57,9 @@ Refer [here](https://github.com/virajd98/Q-Plinkers/blob/main/Final%20Notebooks/
 
 A sneak peak into our noisy simulator based results:
 
-<!-- <p align="center">
-<img src= alt="Description" width="255">
-</p> -->
+<p align="center">
+<img src= "https://github.com/virajd98/Q-Plinkers/blob/main/Images/n_6QGB.png" alt="6-level QGB" width="255">
+</p>
 
 ---
 

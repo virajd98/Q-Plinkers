@@ -106,6 +106,6 @@ This project is licensed under the MIT License - see the [LICENSE](MIT-LICENSE.t
 - This project majorly uses [Qiskit](https://www.ibm.com/quantum/qiskit) by IBM Quantum. 
 
 <p align="center">
-  <img src="Images/LOGO - Womanium Quantum - Transparent - Long.png" alt="Womanium Logo" width="160" style="margin:10px;" />
-  <img src="Images/WISER Logo black.png" alt="Wiser Logo" width="160" style="margin:10px;" />
+  <img src="Images/LOGO - Womanium Quantum - Transparent - Long.png" alt="Womanium Logo" width="140" style="margin:10px;" />
+  <img src="Images/WISER Logo black.png" alt="Wiser Logo" width="100" style="margin:10px;" />
 </p>
